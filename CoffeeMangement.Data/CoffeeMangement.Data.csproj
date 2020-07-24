@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EF\CoffeeDBContextFactory.cs" />
+    <Compile Remove="Migrations\20200717042817_Create_Entities.cs" />
+    <Compile Remove="Migrations\20200717042817_Create_Entities.Designer.cs" />
+    <Compile Remove="Migrations\20200717043131_Create_Entities.cs" />
+    <Compile Remove="Migrations\20200717043131_Create_Entities.Designer.cs" />
+    <Compile Remove="Migrations\20200717043416_Create_Entities.cs" />
+    <Compile Remove="Migrations\20200717043416_Create_Entities.Designer.cs" />
+    <Compile Remove="Migrations\20200717085518_Create_Entities_v1.cs" />
+    <Compile Remove="Migrations\20200717085518_Create_Entities_v1.Designer.cs" />
+    <Compile Remove="Migrations\20200717085948_Create_Entities_v1.cs" />
+    <Compile Remove="Migrations\20200717085948_Create_Entities_v1.Designer.cs" />
+    <Compile Remove="Migrations\20200717090412_Create_Entities_v1.cs" />
+    <Compile Remove="Migrations\20200717090412_Create_Entities_v1.Designer.cs" />
+    <Compile Remove="Migrations\20200717091526_Create_Entities_v1.cs" />
+    <Compile Remove="Migrations\20200717091526_Create_Entities_v1.Designer.cs" />
+    <Compile Remove="Migrations\20200717091712_Create_Entities_v1.cs" />
+    <Compile Remove="Migrations\20200717091712_Create_Entities_v1.Designer.cs" />
+    <Compile Remove="Migrations\20200717091834_Create_Entities_v2.cs" />
+    <Compile Remove="Migrations\20200717091834_Create_Entities_v2.Designer.cs" />
+    <Compile Remove="Migrations\20200717091940_Create_Entities_v1.cs" />
+    <Compile Remove="Migrations\20200717091940_Create_Entities_v1.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.6" />
+  </ItemGroup>
+
+</Project>
